@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Zombie" max_length="40" name="x_159204_zombienow_zombie" type="collection">
+        <element default="100" label="After death health" max_length="40" name="after_death_health" type="integer"/>
+        <element default="5" label="Aggression" max_length="40" name="aggression" type="integer"/>
+        <element label="Immobile" max_length="40" name="immobile" type="boolean"/>
+        <element label="Last hit by" max_length="32" name="last_hit_by" reference="sys_user" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" default="male" label="Pre-death gender" max_length="40" name="pre_death_gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="last_hit_by"/>
+        </index>
+    </element>
+</database>

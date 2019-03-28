@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="after_death_health" label="After death health" language="en" table="x_159204_zombienow_zombie">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>after_death_health</element>
+            <help/>
+            <hint/>
+            <label>After death health</label>
+            <language>en</language>
+            <name>x_159204_zombienow_zombie</name>
+            <plural>After death healths</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rpoore_admin</sys_created_by>
+            <sys_created_on>2019-03-28 15:04:49</sys_created_on>
+            <sys_id>8e5d7514db20330040dc9006db9619ed</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>After death health</sys_name>
+            <sys_package display_value="ZombieNow" source="x_159204_zombienow">8eecf9d0db20330040dc9006db961923</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ZombieNow">8eecf9d0db20330040dc9006db961923</sys_scope>
+            <sys_update_name>sys_documentation_x_159204_zombienow_zombie_after_death_health_en</sys_update_name>
+            <sys_updated_by>rpoore_admin</sys_updated_by>
+            <sys_updated_on>2019-03-28 15:22:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
